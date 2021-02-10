@@ -1,26 +1,27 @@
-% Videoclub "Los Pajaritos"
-% Ricardo Pérez
-% Curso 2019/20
+% CrossPerformance
+% Alonso Fernández Vidal
+% Curso 2020/21
 
 # Descripción general del proyecto
 
-Explicar.
+Plataforma para gestión de reserva de clases y gestión interna de centros deportivos.
 
 ## Funcionalidad principal de la aplicación
 
-Explicar.
+La aplicación permitirá a los usuarios registrase y loguearse. Estos usuarios podrán reservar clase en tramos horarios establecidos previamente por el administrador. Los usuarios tendrán sus perfiles donde pondrán tener sus datos personales, marcas personales y objetivos.
 
 ## Objetivos generales
 
-A diferencia de los casos de uso, los objetivos no tienen principio ni fin.
+Como administrador establecer franjas horarias para reservar clases, control total de los usuarios, gestión interna de los pagos, etc.
 
-Por ejemplo:
+Como usuario poder rellenar y actualizar sus datos personales, reservar horas de clase, etc.
 
-* Objetivo: "gestionar los alquileres y las devoluciones de las películas".
-* Casos de uso: "alquilar una película", "devolver una película".
+* Objetivo: "gestionar las reservas de clase de los usuarios".
+* Casos de uso: 
+	- Invitados: "registrarse".
+	- Usuarios: "iniciar sesión", "cerrar sesión", "reservar clase", "eliminar reserva de clase", "mirar entreno del día", "editar perfil personal", "borrar perfil personal", "buscar otros usuarios", "ver a otro usuario".
+	- Administrador: "iniciar sesión", "cerrar sesión", "registar entreno del día", "eliminar entreno del día", "modificar entreno del día", "ver detalles del entreno del día", "editar un perfil", "borrar una cuenta", "buscar otros usuarios", "ver a otro usuario", "ver pagos facturados".
 
 # Elemento de innovación
 
-Aspecto, función o tecnología novedosa o innovadora no tratada directamente
-en clase y que será necesario investigar para desarrollar adecuadamente el
-Proyecto.
+* Uso de Amazon S3 como servicio de almacenamiento y protección de datos.
